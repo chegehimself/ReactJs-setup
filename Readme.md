@@ -1,0 +1,2 @@
+[![Coverage Status](https://coveralls.io/repos/github/james-chege/ReactJs-setup/badge.svg?branch=ch-setup-testing-162036465)](https://coveralls.io/github/james-chege/ReactJs-setup?branch=ch-setup-testing-162036465)
+[![Build Status](https://travis-ci.org/james-chege/ReactJs-setup.svg?branch=ch-setup-testing-162036465 )](https://travis-ci.org/james-chege/ReactJs-setup)
