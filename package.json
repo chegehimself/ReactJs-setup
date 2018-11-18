@@ -6,7 +6,8 @@
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "./node_modules/.bin/webpack --mode production",
     "test": "jest",
-    "coverage": "yarn test --coverage"
+    "coverage": "yarn test --coverage",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "repository": "https://github.com/james-chege/ReactJs-setup.git",
   "author": "James Chege",
