@@ -13,4 +13,4 @@ install:
 script:
 - yarn add coveralls
 - yarn coverage
-- yarn run coveralls
+- npm run coveralls
