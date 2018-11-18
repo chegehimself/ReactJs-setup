@@ -13,6 +13,4 @@ install:
 script:
 - yarn add coveralls
 - yarn coverage
-
-after_script:
 - yarn run coveralls
