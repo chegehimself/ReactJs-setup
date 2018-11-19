@@ -1,0 +1,6 @@
+export const CONSTANTS = {
+  FETCH_HOME: 'FETCH_HOME',
+  LOGIN_SUCCESS: 'LOGIN_SUCCESS'
+};
+
+export default CONSTANTS;
