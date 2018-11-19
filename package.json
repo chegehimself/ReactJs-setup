@@ -22,7 +22,6 @@
     "webpack-cli": "^3.1.2"
   },
   "dependencies": {
-    "webpack-dev-server": "^3.1.10",
     "axios": "^0.18.0",
     "babel-preset-stage-0": "^6.24.1",
     "coveralls": "^3.0.2",
@@ -31,6 +30,7 @@
     "enzyme-adapter-react-15": "^1.2.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "file-loader": "^2.0.0",
+    "history": "latest",
     "image-webpack-loader": "^4.5.0",
     "jest": "^23.6.0",
     "node-sass": "^4.10.0",
@@ -42,11 +42,12 @@
     "react-test-renderer": "^16.6.3",
     "redux": "^4.0.1",
     "redux-devtools-extension": "latest",
+    "redux-mock-store": "^1.5.3",
     "redux-thunk": "latest",
     "sass-loader": "^7.1.0",
     "semantic-ui-css": "^2.4.1",
     "style-loader": "^0.23.1",
     "validator": "^10.9.0",
-    "history": "latest"
+    "webpack-dev-server": "^3.1.10"
   }
 }

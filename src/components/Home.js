@@ -1,17 +1,15 @@
 import React, {Component} from 'react';
-import '../App.scss';
+// import '../App.scss';
 import { connect } from 'react-redux';
 import PropTypes from 'proptypes';
 import home from "../actions/home.action";
 import { Link } from 'react-router-dom';
 
 class Home extends Component {
-  // state = { data: { content: '' }, loading: false, errors: {} };
 
   componentDidMount() {
     const { homeFetch } = this.props;
     homeFetch();
-    console.log(homeFetch())
   }
 
   render() {
@@ -71,7 +69,7 @@ Home.propTypes = {
   homeFetch: PropTypes.func.isRequired,
 };
 
-export const mapStateToProps = ({ home }) => ({ home });
+export const mapStateToProps = ({ home }) => ({ ...home });
 
 export default connect(mapStateToProps, {
   homeFetch: home,
